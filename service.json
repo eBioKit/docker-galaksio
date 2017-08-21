@@ -1,0 +1,9 @@
+{
+	"service":"galaksio",
+	"version":"0.1",
+	"title":"Galaksio",
+	"description":"Galaksio service",
+	"categories":"analysis",
+	"website":"/galaksio",
+	"dockers" : "fikipollo/galaksio"
+}

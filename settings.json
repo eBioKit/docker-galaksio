@@ -1,0 +1,44 @@
+[
+	{
+		"name": "INSTANCE_NAME",
+		"label": "Instance name",
+		"type": "text",
+		"description": "The name for the new instance"
+	},
+	{
+		"name": "INSTANCE_PORT_1",
+		"label": "Port number",
+		"type": "number",
+		"description": "The port number for the new instance"
+	},
+	{
+		"name": "INSTANCE_URL",
+		"label": "URL",
+		"type": "text",
+		"description": "The URL for the new instance"
+	},
+	{
+		"name": "GALAXY_SERVER",
+		"label": "Galaxy server",
+		"type": "text",
+		"description": "The URL for the associated Galaxy server."
+	},
+	{
+		"name": "GALAXY_SERVER_URL",
+		"label": "Galaxy server (repeat)",
+		"type": "text",
+		"description": "The URL for the associated Galaxy server."
+	},
+	{
+		"name": "MAX_CONTENT_LENGTH",
+		"label": "Max upload size (MB)",
+		"type": "text",
+		"description": "Max size for upload (MB)."
+	},
+	{
+		"name": "ADMIN_ACCOUNTS",
+		"label": "Admin accounts:",
+		"type": "text",
+		"description": "The admin accounts separated by commas."
+	}
+]

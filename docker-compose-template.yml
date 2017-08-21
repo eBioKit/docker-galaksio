@@ -1,0 +1,23 @@
+############################################################
+# Launcher for MRS container for the eBioKit
+# This is a template, the following values must be replaced:
+#   - $${INSTANCE_NAME}, name for the instance
+#   - $${INSTANCE_PORT_1}, port number for MRS instance
+#   - $${GALAXY_SERVER},
+#   - $${GALAXY_SERVER_URL},
+#   - $${MAX_CONTENT_LENGTH},
+#   - $${ADMIN_ACCOUNTS},
+############################################################
+
+version: '2'
+services:
+    $${INSTANCE_NAME}-galaksio:
+      image: fikipollo/galaksio
+      container_name: $${INSTANCE_NAME}-galaksio
+      environment:
+        - GALAXY_SERVER=$${GALAXY_SERVER}
+        - GALAXY_SERVER_URL=$${GALAXY_SERVER_URL}
+        - MAX_CONTENT_LENGTH=$${MAX_CONTENT_LENGTH}
+        - ADMIN_ACCOUNTS=$${ADMIN_ACCOUNTS}
+      ports:
+        - "$${INSTANCE_PORT_1}:80"

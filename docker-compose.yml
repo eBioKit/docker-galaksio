@@ -1,0 +1,12 @@
+version: '2'
+services:
+    instance1-galaksio:
+      image: fikipollo/galaksio
+      container_name: instance1-galaksio
+      environment:
+        - GALAXY_SERVER=https://usegalaxy.org
+        - GALAXY_SERVER_URL=https://usegalaxy.org
+        - MAX_CONTENT_LENGTH=300
+        - ADMIN_ACCOUNTS=admin@galaxy.com
+      ports:
+        - "8052:80"
