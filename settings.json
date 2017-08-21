@@ -3,42 +3,48 @@
 		"name": "INSTANCE_NAME",
 		"label": "Instance name",
 		"type": "text",
-		"description": "The name for the new instance"
+		"description": "The name for the new instance",
+		"default": "galaksio"
 	},
 	{
 		"name": "INSTANCE_PORT_1",
 		"label": "Port number",
 		"type": "number",
-		"description": "The port number for the new instance"
+		"description": "The port number for the new instance",
+		"default": 8081
 	},
 	{
 		"name": "INSTANCE_URL",
 		"label": "URL",
 		"type": "text",
-		"description": "The URL for the new instance"
+		"description": "The URL for the new instance",
+		"default": "/galaksio"
 	},
 	{
 		"name": "GALAXY_SERVER",
 		"label": "Galaxy server",
 		"type": "text",
-		"description": "The URL for the associated Galaxy server."
+		"description": "The URL for the associated Galaxy server.",
+		"default": "https://usegalaxy.org"
 	},
 	{
 		"name": "GALAXY_SERVER_URL",
 		"label": "Galaxy server (repeat)",
 		"type": "text",
-		"description": "The URL for the associated Galaxy server."
+		"description": "The URL for the associated Galaxy server.",
+		"default": "https://usegalaxy.org"
 	},
 	{
 		"name": "MAX_CONTENT_LENGTH",
 		"label": "Max upload size (MB)",
-		"type": "text",
-		"description": "Max size for upload (MB)."
+		"type": "number",
+		"description": "Max size for upload (MB).",
+		"default": 20
 	},
 	{
 		"name": "ADMIN_ACCOUNTS",
 		"label": "Admin accounts:",
-		"type": "text",
+		"type": "email",
 		"description": "The admin accounts separated by commas."
 	}
 ]
