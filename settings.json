@@ -1,10 +1,10 @@
 [
 	{
-		"name": "INSTANCE_NAME",
-		"label": "Instance name",
+		"name": "INSTANCE_TITLE",
+		"label": "Service name",
 		"type": "text",
-		"description": "The name for the new instance",
-		"default": "galaksio"
+		"description": "The title for the new service",
+		"default": "Galaksio"
 	},
 	{
 		"name": "INSTANCE_PORT_1",
