@@ -14,13 +14,6 @@
 		"default": 8081
 	},
 	{
-		"name": "INSTANCE_URL",
-		"label": "URL",
-		"type": "text",
-		"description": "The URL for the new instance",
-		"default": "/galaksio"
-	},
-	{
 		"name": "GALAXY_SERVER",
 		"label": "Galaxy server",
 		"type": "text",
@@ -43,8 +36,8 @@
 	},
 	{
 		"name": "ADMIN_ACCOUNTS",
-		"label": "Admin accounts:",
+		"label": "Admin accounts",
 		"type": "email",
-		"description": "The admin accounts separated by commas."
+		"description": "The admin accounts (email) separated by commas."
 	}
 ]

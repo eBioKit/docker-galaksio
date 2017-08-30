@@ -3,7 +3,7 @@
 	"version":"0.1",
 	"title":"Galaksio",
 	"description":"Galaksio service",
-	"categories":"analysis",
-	"website":"/galaksio",
+	"categories":"analysis,bioinformatics,galaxy,easy-to-use,web-based",
+	"website":"http://77.235.253.122:8093",
 	"dockers" : "fikipollo/galaksio"
 }
