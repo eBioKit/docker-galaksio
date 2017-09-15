@@ -5,5 +5,5 @@
 	"description":"Galaksio service",
 	"categories":"analysis,bioinformatics,galaxy,easy-to-use,web-based",
 	"website":"http://77.235.253.122:8093",
-	"dockers" : "fikipollo/galaksio,busybox"
+	"dockers" : "fikipollo/galaksio:0.3,busybox"
 }
