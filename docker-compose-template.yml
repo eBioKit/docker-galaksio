@@ -29,4 +29,4 @@ services:
       image: busybox
       container_name: $${INSTANCE_NAME}-galaksio-data
       volumes:
-        - /data/$${INSTANCE_NAME}-data/galaksio-data:/usr/local/apache2/htdocs/server/conf/
+        - /data/common-data/$${INSTANCE_NAME}-data/galaksio-data:/usr/local/apache2/htdocs/server/conf/
